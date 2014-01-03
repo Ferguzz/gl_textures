@@ -41,7 +41,7 @@ const fragment_shader = `
 
 	void main()
 	{
-	    outColor = texture(tex2+tex1, TextureCoord);
+	    outColor = texture(tex1, TextureCoord);
 	}
 `
 
